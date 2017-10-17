@@ -32,7 +32,7 @@ extension ViewController {
         
         // 端口
         let portLabel = UILabel(title: "端口", fontSize: 15, color: MW_BLACK_COLOR)
-        portLabel.frame = CGRect(x: 50, y: 80, width: 30, height: 15)
+        portLabel.frame = CGRect(x: 50, y: 80, width: 35, height: 15)
         // 端口
         portField = UITextField(placeholder: "请输入端口号", placeholderColor: UIColor.lightGray, placeholderFontSize: 13, textColor: MW_BLACK_COLOR, textFontSize: 13)
         
@@ -47,7 +47,7 @@ extension ViewController {
         
         startListen.addTarget(self, action: #selector(clickListen(button:)), for: .touchUpInside)
         
-        startListen.frame = CGRect(x: 300, y: 80, width: 90, height: 20)
+        startListen.frame = CGRect(x: 270, y: 80, width: 90, height: 20)
         startListen.layer.borderWidth = 1
         startListen.layer.borderColor = UIColor.blue.cgColor
         startListen.layer.cornerRadius = 4
@@ -63,7 +63,7 @@ extension ViewController {
         
         sendMsgBtn.addTarget(self, action: #selector(sendMessage), for: .touchUpInside)
         
-        sendMsgBtn.frame = CGRect(x: 300, y: 180, width: 90, height: 20)
+        sendMsgBtn.frame = CGRect(x: 270, y: 180, width: 90, height: 20)
         sendMsgBtn.layer.borderWidth = 1
         sendMsgBtn.layer.borderColor = UIColor.blue.cgColor
         sendMsgBtn.layer.cornerRadius = 4
