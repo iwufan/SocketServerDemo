@@ -5,8 +5,8 @@ You can download and run it directly.
 # Usage
 ![image](https://github.com/iwufan/Resources/blob/master/Images/Socket/Server-side.gif)
 
-## 1. Input a port(it can be any number, client will use this port to connect server.)
-## 2. Click "开始监听".
+### 1. Input a port(it can be any number, client will use this port to connect server.)
+### 2. Click "开始监听".
 
 After the server is connected with a client successfully, it can send messages to the client and receive messages from the client.
 
@@ -24,6 +24,6 @@ If you have CocaAsyncSocket framework in you project, the solution will be very 
 Build the project and the error will disappear.
 
 # Other
-It's just a basic version. I will add more functions in future.
+It's just a basic version. I will add more functions in future, like send images or musics to the client.
 
 Enjoy, thanks.
