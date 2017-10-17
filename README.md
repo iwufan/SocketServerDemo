@@ -12,6 +12,7 @@ After the server is connected with a client successfully, it can send messages t
 
 # Error
 I you occur the error "No such module 'CocoaAsyncSocket'" as below.
+
 ![image](https://github.com/iwufan/Resources/blob/master/Images/Socket/CocaAsyncSocket_error.png)
 
 You should know the project can run normally even this error exists.
